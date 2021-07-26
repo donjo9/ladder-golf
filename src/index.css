@@ -1,0 +1,52 @@
+html,
+body,
+#root {
+    margin: 0;
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    background-color: var(--draculaorchid);
+    color: white;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    max-width: 400px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#root {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+:root {
+    --lightgreenishblue: #55efc4;
+    --fadedposter: #81ecec;
+    --greendarnertail: #74b9ff;
+    --shymoment: #a29bfe;
+    --mintleaf: #00b894;
+    --citylight: #dfe6e9;
+    --electronblue: #0984e3;
+    --exodusfruit: #6c5ce7;
+    --brigthyarrow: #fdcb6e;
+    --orangeville: #e17055;
+    --americanriver: #345563;
+    --draculaorchid: #2d3436;
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+}
